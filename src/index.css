@@ -1,0 +1,21 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* COLORS */
+  --color-primary: orange;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* LIST SCREEN */
+.list-screen-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list-screen-actions {
+  margin-bottom: 10px;
+}

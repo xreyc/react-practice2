@@ -1,0 +1,36 @@
+.main-layout-header {
+    padding: 0px 12px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.main-layout-logo {
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.main-layout-menu {
+    display: flex;
+    gap: 10px;
+}
+.main-layout-menu>div {
+    font-size: 15px;
+    cursor: pointer;
+}
+.main-layout-menu>div:hover {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.main-layout-content {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+.main-layout-content>div {
+    padding: 12px;
+}

@@ -1,0 +1,23 @@
+.login-layout-header {
+    padding: 0px 12px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.login-layout-logo {
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.login-layout-content {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+}
+.login-layout-content>div {
+    padding: 12px;
+}
